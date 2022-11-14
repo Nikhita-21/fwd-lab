@@ -1,0 +1,27 @@
+/* exercise 6 css*/
+
+
+.btn:hover {
+    background-color: rgb(130, 130, 210);
+    border-radius: 5px;
+}
+
+a:visited {
+    color: aqua;
+}
+
+p:hover {
+    color: red;
+}
+
+p:first-child {
+    color: rgb(121, 138, 216);
+}
+
+h3::after {
+    content: "-hello";
+}
+
+h4::before {
+    content: 'hello-'
+}

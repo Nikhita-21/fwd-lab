@@ -1,0 +1,50 @@
+/*exercise 6 css*/
+
+
+.container {
+    display: flex;
+    justify-content: right;
+
+}
+
+div.container {
+    background-color: aqua;
+}
+
+.container>div {
+    background-color: red;
+    padding: 10px;
+    margin: 4px;
+    flex-grow: 1;
+}
+
+.flex-direction {
+    display: flex;
+    flex-direction: column;
+
+    background-color: bisque;
+}
+
+.flex-direction>div {
+    background-color: rgb(155, 145, 145);
+    padding: 10px;
+    margin: 4px;
+}
+
+.flex-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    align-items: flex-start;
+    align-content: stretch;
+    background-color: aqua;
+}
+
+.flex-wrap>div {
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+    margin: 5px;
+
+
+}

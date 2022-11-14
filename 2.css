@@ -1,0 +1,14 @@
+/*exercise 2 tables css */
+
+#one {
+    border-collapse: collapse;
+}
+
+th {
+    border-radius: 10px;
+    border-color: rgb(231, 0, 0);
+}
+
+#table1 {
+    border-collapse: collapse;
+}
